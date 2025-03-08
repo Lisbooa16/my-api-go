@@ -9,4 +9,10 @@ func somar(valor int8, valor2 int8) int8 {
 func main() {
 	soma := somar(10, 20)
 	fmt.Println(soma)
+
+	var f = func(txt string) string {
+		return txt
+	}
+	resultado := f("teste da função")
+	fmt.Println(resultado)
 }
