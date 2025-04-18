@@ -51,4 +51,15 @@ func main() {
 	numero--
 	numero -= 20
 	fmt.Println(numero)
+
+	// texto := numero > 5 ? "Maior que 5" : "Menor que 5" -> isso nao existe
+	// numero = 6
+	var texto string
+	if numero > 5 {
+		texto = "Maior que 5"
+	} else {
+		texto = "Menor que 5"
+	}
+	fmt.Println(texto)
+
 }
